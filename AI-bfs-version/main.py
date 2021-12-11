@@ -4,7 +4,7 @@ from src.game import *
 # Am implementat o cautare in adancime pe un graf de tip grid (o explicatie mai in detaliu in src/game.py la linia 195)
 # avand totodata si o lista cu nodurile pe care le marchez ca fiind monstrii si o lista cu nodurile comori.
 # Parcurgand graful in latime daca am intalnit un nod monstru il marcam ca nod final, daca gasim un nod comoara
-# actualizam scorul, marcam nodul ca ne fiiind comoara in continuare si continuam parcurgerea.
+# actualizam scorul, marcam nodul ca ne fiind comoara in continuare si continuam parcurgerea.
 
 if __name__ == '__main__':
     g = Game()
